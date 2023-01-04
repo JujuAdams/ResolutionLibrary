@@ -126,8 +126,8 @@ global.resLib[@ RES_LIB.DESKTOP_16_10_1920_X_1200] = { width: 1920, height: 1200
 global.resLib[@ RES_LIB.DESKTOP_16_10_2560_X_1600] = { width: 2560, height: 1600 };
 global.resLib[@ RES_LIB.DESKTOP_16_10_3840_X_2400] = { width: 3840, height: 2400 };
 
-global.resLib[@ RES_LIB.STEAM_DECK     ] = { width: 1280, height:  800 };
-global.resLib[@ RES_LIB.SWITCH_HANDHELD] = { width: 1280, height:  720 };
+global.resLib[@ RES_LIB.STEAM_DECK     ] = { width: 1280, height: 800 };
+global.resLib[@ RES_LIB.SWITCH_HANDHELD] = { width: 1280, height: 720 };
 
 //Android Phones
 global.resLib[@ RES_LIB.SAMSUNG_S22_ULTRA ] = { width: 1440, height: 3088 };
