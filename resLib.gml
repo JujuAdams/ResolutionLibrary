@@ -1,6 +1,10 @@
 enum RES_LIB
 {
     //Desktop and console
+    
+    //1920x1080 - The most common resolution in the Steam hardware survey, as of 2023-01-04
+    DESKTOP_COMMON,
+    
     DESKTOP_16_9_1280_X_720,
     DESKTOP_16_9_1366_X_768,
     DESKTOP_16_9_1920_X_1080,
@@ -109,6 +113,8 @@ enum RES_LIB
 global.resLib = [];
 
 //Desktop and console
+global.resLib[@ RES_LIB.DESKTOP_COMMON] = { width: 1920, height: 1080 };
+
 global.resLib[@ RES_LIB.DESKTOP_16_9_1280_X_720 ] = { width: 1280, height:  720 };
 global.resLib[@ RES_LIB.DESKTOP_16_9_1366_X_768 ] = { width: 1366, height:  768 };
 global.resLib[@ RES_LIB.DESKTOP_16_9_1920_X_1080] = { width: 1920, height: 1080 };
